@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<img id="img" src="logo.svg" alt="PiggyVest Logo" />
+		<img id="img" src="/logo.svg" alt="PiggyVest Logo" />
 		<div id="frm">
 <form action="" method="get" accept-charset="utf-8" id="form_input">
 			
@@ -21,12 +21,12 @@
 			
 			<div id="form_input">
 				<label for="fname">Full Name</label><br />
-			<input type="text" name="fname" id="fname" value="Full Name" /><br />
+			<input type="text" name="fname" id="fname" value="Full Name"placeholder="Full Name" /><br />
 			</div>
 			
 			<div id="form_input">
 				<label for="mail">Email</label><br />
-			<input type="email" name="email" id="email" value="Email" /><br />
+			<input type="email" name="email" id="email" value="Email" placeholder="Email"/><br />
 			</div>
 			
 			<div id="form_input">
@@ -41,13 +41,13 @@
 			
 			<div id="form_input">
 				<label for="referrer">Referrer Phone/Promo Code (Optional)</label><br />
-				<input type="text" name="referrer" id="referrer" value="Referrer Phone or Code" /><br />
+				<input type="text" name="referrer" id="referrer" value="Referrer Phone or Code" placeholder="Referrer Phone or Code" /><br />
 			</div>
 			
 			<div id="form_input">
 				<label for="howdidyou">How did you hear about us? (Optional)</label><br />
-				<select name="Click Startto Select" id="Click to Select" placeholder="">
-				<option value="Click to Search">Click to select</option>
+				<select name="Click Startto Select" id="Click to Select" value="0">
+				<option value="0">Click to select</option>
 				<option value="fb">Facebook</option>
 				<option value="twter">Twitter</option>
 				<option value="insta">Instagram</option>
@@ -63,10 +63,10 @@
 				<input type="submit" name="" id="submit" value="CREATE ACCOUNT" />
 			</div>
 			</div>
-			<p id="login">
+		</form>
+	<p id="login">
 			Already have an account? <a href="#">Log In.</a>
 			</p>
-		</form>
 		</div>
 	</body>
 </html>
