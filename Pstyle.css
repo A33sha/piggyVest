@@ -20,7 +20,7 @@ form{
 	color: black;
 }
 img{
-	margin-left: 40%;
+	margin-left: 35%;
 	z-index: 1;
 }
 input{
@@ -87,9 +87,9 @@ a{
 	color: white;
 	font-size: 20px;
 }
-@media screen and (400px){
+@media screen and (1400px){
 	#img{
-		margin: auto;
+		margin-left: 55%;
 	}
 	#form{
 		min-width: 400px;
